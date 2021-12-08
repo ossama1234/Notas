@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Crear Directorios y Archivos TXT</title>
+  </head>
+  <body style="background-color: lightblue">
+        <div class=" fluid ">
+      <div class="row ">
+        <div class="col-1 "></div>
+        <div class="col-lg-11 col-sm-12">
+
+<h3 class=" py-4">Abrir Archivo</h3>
+    <form action="./leer-archivo.php" method="post" name="datos" id="datos">
+      <table width="30%">
+        <tr>
+          <td>Ingrese el nombre del archivo:</td>
+          <td>
+            <label for="nombreArchivoLeer"></label>
+            <input
+              type="text"
+              name="nombreArchivoLeer"
+             
+            />
+          </td>
+        </tr>
+
+         <td>Ingrese el nombre de la carpeta si existe:</td>
+          <td>
+            <label for="carpeta"></label>
+             <input
+              type="text"
+              name="carpeta"
+              id="carpeta"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td align="right">
+            <div> 
+               <a class="btn btn-primary " href="./index.php">Volver</a>
+            </div>
+          </td>
+          
+          <td colspan="2">
+            <input
+              type="submit"
+              name="enviarDatosLeer"
+              id="enviarDatosLeer"
+              value="Leer"
+              class="btn btn-primary m-2"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+ </div>
+  </div>
+</div>
+    
+    </body>
+</html>
